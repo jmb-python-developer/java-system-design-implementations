@@ -6,7 +6,9 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Represent a generic Table class.
+ * Represent a generic Table class. Different Table implementations are based on different data structures to focus on
+ * different access patterns for the storage used.
+ *
  * @param <K> Type for the Table Keys
  * @param <V> Type for the Table Values
  */
