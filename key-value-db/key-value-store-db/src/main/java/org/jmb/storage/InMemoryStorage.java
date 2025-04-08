@@ -7,7 +7,8 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Represents and In Memory Storage, backed by a hash based data structure.
+ * Represents and In Memory Storage, backed by a hash based data structure. This is the simplest of the
+ * storage types of implementation, albeit arguably the most performant one.
  */
 public class InMemoryStorage<K, V> implements Storage<K, V> {
 

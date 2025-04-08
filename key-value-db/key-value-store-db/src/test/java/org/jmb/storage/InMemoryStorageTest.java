@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Unit Test for class  {@link InMemoryStorage}
+ */
 public class InMemoryStorageTest {
     private Storage<String, String> storage;
 
